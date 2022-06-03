@@ -3,9 +3,9 @@
 >My name is Anton Podoshvo
 
 1. Tel: +375447506484
-2. [Telegram:](https://t.me/akuna_matauta)
-3. [Vk:](https://vk.com/antonmartinov_tilda)
-4. [Github:] (@antonmartinov)
+2. [It is my Telegram](https://t.me/akuna_matauta)
+3. [It is my Vk](https://vk.com/antonmartinov_tilda)
+4. Github: @antonmartinov
 
 *My name is Anton. I am from Mogilev, but live in Minsk. I am study in the BNTU in the military department. I would like be a frontend developer*  
 I can write: 
@@ -14,6 +14,6 @@ I can write:
 * SASS
 
 **Studied in the Glo Academy** <br/>  
-[Project from Glo Academy:](https://github.com/AntonMartinov/Tour-Plan.git)
+Project from Glo Academy: https://github.com/AntonMartinov/Tour-Plan.git
 
 *English level: A2*
