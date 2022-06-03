@@ -1,4 +1,4 @@
-![Моё фото](photo_2022-01-10_22-31-02.jpg)
+![Моё фото](https://sun9-80.userapi.com/s/v1/ig2/mNKMe2f_25HmgN_iNC4l9Mrm5EAuEqUSx-AdM4TI9tjj5MjJEGeXEomZA1mPDylc1-4tqclZSZkc1Wn8b97J3gqH.jpg?size=960x1280&quality=96&type=album)
 
 >My name is Anton Podoshvo
 
