@@ -13,7 +13,7 @@ I can write:
 * CSS 
 * SASS
 
-__Studied in the Glo Academy__   
+**Studied in the Glo Academy** <br/>  
 [Project from Glo Academy:](https://github.com/AntonMartinov/Tour-Plan.git)
 
 *English level: A2*
