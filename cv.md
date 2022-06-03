@@ -14,6 +14,6 @@ I can write:
 * SASS
 
 **Studied in the Glo Academy** <br/>  
-Project from Glo Academy: https://github.com/AntonMartinov/Tour-Plan.git
+Project from Glo Academy: (https://github.com/AntonMartinov/Tour-Plan.git)
 
 *English level: A2*
