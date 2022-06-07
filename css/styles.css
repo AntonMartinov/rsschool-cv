@@ -1,7 +1,8 @@
 .header {
-  width: 1000px;
+  width: 1200px;
   margin: auto;
-  padding: 17px 180px;
+  margin-bottom: 0px;
+  padding: 17px 90px;
   background-color: #84d782;
   font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -16,9 +17,15 @@
   font-weight: normal;
 }
 
-.main-scrin {
+* {
+  box-sizing: border-box;
+}
+
+.main {
   margin: auto;
   width: 1200px;
+  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+  margin-top: 0px;
 }
 
 .name {
@@ -26,6 +33,7 @@
   font-weight: bold;
   font-style: italic;
   font-size: 22px;
+  margin-top: 0px;
 }
 
 .my_photo {
