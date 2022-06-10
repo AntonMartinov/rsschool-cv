@@ -28,6 +28,7 @@
   background: linear-gradient(300.4deg, #86D7F9 0.42%, #2965F1 93.23%);
   margin-top: 0px;
   padding: 18px 40px 25px 30px;
+  display: flex;
 }
 .main-leftcolumn {
   width: 427px;
@@ -277,4 +278,181 @@
   height: 8px;
   background: #CECACA;
   border-radius: 50%;
+}
+
+.main-rightcolumn {
+  width: 100%;
+  height: 960px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 28px 20px 0px 28px;
+}
+.main-rightcolumn__education-heading {
+  display: flex;
+  align-items: center;
+}
+.main-rightcolumn__education-heading__rectangle {
+  background: #545454;
+  border-radius: 5px;
+  width: 154px;
+  height: 24px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 3px;
+}
+.main-rightcolumn__education-heading__stroke {
+  background: #545454;
+  width: 141px;
+  height: 1px;
+}
+.main-rightcolumn__education-main {
+  margin-top: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: #2C2C2C;
+  padding: 0px;
+}
+.main-rightcolumn__education-dep {
+  margin-top: 5px;
+  color: #545454;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px;
+}
+.main-rightcolumn__education-year {
+  margin-top: 3px;
+  color: #545454;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px;
+}
+.main-rightcolumn__education-school {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: #2C2C2C;
+  padding: 0px;
+  padding: 0px;
+}
+.main-rightcolumn__education-school__first {
+  margin-top: 5px;
+  color: #545454;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0px;
+}
+.main-rightcolumn__education-school__second {
+  margin-top: 3px;
+  color: #545454;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+}
+.main-rightcolumn__skills {
+  margin-top: 55px;
+}
+.main-rightcolumn__skills-heading {
+  display: flex;
+  align-items: center;
+}
+.main-rightcolumn__skills-heading__rectangle {
+  background: #545454;
+  border-radius: 5px;
+  width: 154px;
+  height: 24px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 3px;
+}
+.main-rightcolumn__skills-heading__stroke {
+  background: #545454;
+  width: 141px;
+  height: 1px;
+}
+.main-rightcolumn__exp {
+  margin-top: 75px;
+}
+.main-rightcolumn__exp-heading {
+  display: flex;
+  align-items: center;
+}
+.main-rightcolumn__exp-heading__rectangle {
+  background: #545454;
+  border-radius: 5px;
+  width: 154px;
+  height: 24px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 3px;
+}
+.main-rightcolumn__exp-heading__stroke {
+  background: #545454;
+  width: 141px;
+  height: 1px;
+}
+.main-rightcolumn__exp-main {
+  margin-top: 38px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: #2C2C2C;
+  padding: 0px;
+}
+.main-rightcolumn__exp-main__proff {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #2C2C2C;
+  margin-top: 8px;
+  padding: 0px;
+  line-height: 18px;
+}
+.main-rightcolumn__exp-main__proff-date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 2px;
+  color: #4E4D4D;
+  line-height: 18px;
+}
+.main-rightcolumn__exp-main__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: #2E2C2C;
 }
