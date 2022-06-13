@@ -4,159 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  <title>My site for cross-check</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>CV#2. HTML, CSS, Git Basics</title>
 </head>
 <body>
-  <section class="header">
-      <nav class="header-breadcrumps">
-        <a class="header-breadcrumps__element" href="#">About me</a>
-        <a class="header-breadcrumps__element" href="#">Contacts</a>
-        <a class="header-breadcrumps__element" href="#">Projects</a>
-        <a class="header-breadcrumps__element" href="#">skills</a>
-        <a class="header-breadcrumps__element" href="#">ask me</a>
-      </nav>
-    <!-- /.header-breadcrumps -->
+  <section class="main-scrin">
+    <h1 class="name">My name is Anton Podoshvo</h1>
+    <img class="my_photo" src="https://sun9-80.userapi.com/s/v1/ig2/mNKMe2f_25HmgN_iNC4l9Mrm5EAuEqUSx-AdM4TI9tjj5MjJEGeXEomZA1mPDylc1-4tqclZSZkc1Wn8b97J3gqH.jpg?size=960x1280&quality=96&type=album" alt="Моё фото">
+    <ul class="my_contacts">
+      <li><a class="information" href="tel:+375447506484">Phone <span class="contact">number</span></a></li>
+      <li><a class="information" href="https://t.me/akuna_matauta">It is my <span class="contact">Telegram</span></a></li>
+      <li><a class="information" href="https://vk.com/antonmartinov_tilda">It is my <span class="contact">Vk</span></a></li>
+      <li>Github: <span class="contact">@antonmartinov</span></li>
+    </ul>
+    <p class="aboutme">My name is Anton. I am from Mogilev, but live in Minsk. I am study in the BNTU in the military department. I would like be a frontend developer</p>
+    <h2 class="can">I can write:</h2>
+    <ul class="leanguage_programm">
+      <li>HTML</li>
+      <li>CSS </li>
+      <li>SASS</li>
+    </ul>
+    <h2 class="learn">Studied in the Glo Academy</h2>
+    <a class="old_project" href="https://github.com/AntonMartinov/Tour-Plan.git">Project from course Glo Academy</a>
+    <h2 class="english">English level: A2</h2>
   </section>
-  <!-- /.header -->
-  <section class="main">
-    <section class="main-leftcolumn">
-      <div class="main-leftcolumn__profile">
-        <img src="img/photo_for_group_profile.jpg" alt="Моё фото" class="main-leftcolumn__profile-photo">
-        <div class="main-leftcolumn__profile-text">
-          <h1 class="main-leftcolumn__profile-text__name">Anton</h1>
-          <h2 class="main-leftcolumn__profile-text__subscription"> Frontend Dev.</h2>
-        </div>
-        <!-- /.main-leftcolumn__profile-text -->
-      </div>
-      <!-- /.main-leftcolumn__profile -->
-      <ul class="main-leftcolumn__contacts">
-        <li class="main-leftcolumn__contacts-element__geo"><span class="main-leftcolumn__contacts-element__geo-text">Minsk</span></li>
-        <li class="main-leftcolumn__contacts-element__mail"><span class="main-leftcolumn__contacts-element__mail-text">apodosvo@gmail.com</span></li>
-        <li class="main-leftcolumn__contacts-element__tel"><a class="main-leftcolumn__contacts-element__tel-link" href="tel:+375 (44) 750-64-84">+375 (44) 750-64-84</a></li>
-        <li class="main-leftcolumn__contacts-element__vk"><a class="main-leftcolumn__contacts-element__vk-link" href="vk.com/antonmartinov_tilda">vk.com/antonmartinov_tilda</a></li>
-        <li class="main-leftcolumn__contacts-element__telegram"><a class="main-leftcolumn__contacts-element__telegram-link" href="https://t.me/akuna_matauta"> @akuna_matauta</a></li>
-        <li class="main-leftcolumn__contacts-element__gh"><span class="main-leftcolumn__contacts-element__gh-text">antonmartinov</span></li>
-      </ul>
-      <div class="main-leftcolumn__languages">
-        <h2 class="main-leftcolumn__languages-maintext">Languages</h2>
-        <div class="main-leftcolumn__languages-firststroke">
-          <h2 class="main-leftcolumn__languages-firststroke__text">Belarusian</h2>
-          <div class="main-leftcolumn__languages-firststroke__circle">
-            <div class="main-leftcolumn__languages-firststroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-firststroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-firststroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-firststroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-firststroke__circle-painted"></div>
-          </div>
-        </div>
-        <div class="main-leftcolumn__languages-secondstroke">
-          <h2 class="main-leftcolumn__languages-secondstroke__text">Russian</h2>
-          <div class="main-leftcolumn__languages-secondstroke__circle">
-            <div class="main-leftcolumn__languages-secondstroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-secondstroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-secondstroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-secondstroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-secondstroke__circle-nonpainted"></div>
-          </div>
-        </div>
-        <div class="main-leftcolumn__languages-thirdstroke">
-          <h2 class="main-leftcolumn__languages-thirdstroke__text">Russian</h2>
-          <div class="main-leftcolumn__languages-thirdstroke__circle">
-            <div class="main-leftcolumn__languages-thirdstroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-thirdstroke__circle-painted"></div>
-            <div class="main-leftcolumn__languages-thirdstroke__circle-nonpainted"></div>
-            <div class="main-leftcolumn__languages-thirdstroke__circle-nonpainted"></div>
-            <div class="main-leftcolumn__languages-thirdstroke__circle-nonpainted"></div>
-          </div>
-        </div>
-      </div>
-      <!-- /.main-leftcolumn__languages -->
-    </section>
-    <!-- /.main-leftcolumn -->
-    <section class="main-rightcolumn">
-      <div class="main-rightcolumn__education">
-        <div class="main-rightcolumn__education-heading">
-          <div class="main-rightcolumn__education-heading__rectangle">education</div>
-          <div class="main-rightcolumn__education-heading__stroke"></div>
-        </div>
-        <!-- /.main-rightcolumn__education-heading -->
-        <h2 class="main-rightcolumn__education-main">Belarusian National Technical University</h2>
-        <h3 class="main-rightcolumn__education-dep">Military department</h3>
-        <h3 class="main-rightcolumn__education-year">2019-2022, Minsk, Belarusian</h3>
-        <h2 class="main-rightcolumn__education-school">Secondary School No. 23</h2>
-        <h3 class="main-rightcolumn__education-school__first">Secondary education</h3>
-        <h3 class="main-rightcolumn__education-school__second">2008-2019, Minsk, Belarusian</h3>
-      </div>
-      <!-- /.main-rightcolumn__education -->
-      <div class="main-rightcolumn__skills">
-        <div class="main-rightcolumn__skills-heading">
-          <div class="main-rightcolumn__skills-heading__rectangle">my skills</div>
-          <div class="main-rightcolumn__skills-heading__stroke"></div>
-        </div>
-        <!-- /.main-rightcolumn__skills-heading -->
-        <div class="main-rightcolumn__skills-level">
-          <div class="main-rightcolumn__skills-level__js">
-            <img src="img/JS.svg" alt="Картинка JavaScript" class="main-rightcolumn__skills-level__js-img">
-            <h3 class="main-rightcolumn__skills-level__js-name">JavaScript</h3>
-          </div>
-          <div class="main-rightcolumn__skills-level__figma">
-            <img src="img/figma.svg" alt="Картинка Figma" class="main-rightcolumn__skills-level__figma-img">
-            <h3 class="main-rightcolumn__skills-level__figma-name">Figma</h3>
-          </div>
-          <div class="main-rightcolumn__skills-level__html">
-            <img src="img/html.svg" alt="Картинка HTML" class="main-rightcolumn__skills-level__html-img">
-            <h3 class="main-rightcolumn__skills-level__html-name">HTML</h3>
-          </div>
-          <div class="main-rightcolumn__skills-level__css">
-            <img src="img/css.svg" alt="Картинка CSS" class="main-rightcolumn__skills-level__css-img">
-            <h3 class="main-rightcolumn__skills-level__css-name">CSS</h3>
-          </div>
-          <div class="main-rightcolumn__skills-level__sass">
-            <img src="img/sass.svg" alt="Картинка SASS" class="main-rightcolumn__skills-level__sass-img">
-            <h3 class="main-rightcolumn__skills-level__sass-name">SASS</h3>
-          </div>
-          <div class="main-rightcolumn__skills-level__tilda">
-            <img src="img/tilda.svg" alt="Картинка Tilda" class="main-rightcolumn__skills-level__tilda-img">
-            <h3 class="main-rightcolumn__skills-level__tilda-name">Tilda</h3>
-          </div>
-        </div>
-        <!-- /.main-rightcolumn__skills-level -->
-      </div>
-      <!-- /.main-rightcolumn__skills -->
-      <div class="main-rightcolumn__exp">
-        <div class="main-rightcolumn__exp-heading">
-          <div class="main-rightcolumn__exp-heading__rectangle">experience</div>
-          <div class="main-rightcolumn__exp-heading__stroke"></div>
-        </div>
-        <!-- /.main-rightcolumn__exp-heading -->
-        <h2 class="main-rightcolumn__exp-main">Digital Internet Agency «Mint»</h2>
-        <h3 class="main-rightcolumn__exp-main__proff">Frontend Developer</h3>
-        <h3 class="main-rightcolumn__exp-main__proff-date">Feb. 2021 - Present - 1 year</h3>
-        <p class="main-rightcolumn__exp-main__text">In the team, I was engaged in the layout of sites on the Tilda platform. <br> Subsequently, I took up a full-fledged layout of sites in code. </p>
-      </div>
-      <!-- /.main-rightcolumn__exp -->
-    </section>
-    <!-- /.main-rightcolumn -->
-  </section>
-  <!-- /.main -->
-  <section class="footer">
-    <div class="footer-github">
-      <img src="img/logo_github_in_footer.svg" alt="Логотип Github" class="footer-github__img">
-      <a href="https://github.com/AntonMartinov" class="footer-github__link">antonmartinov</a>
-    </div>
-    <!-- /.footer-github -->
-    <div class="footer-made">
-      <span class="footer-made__text">Made of Anton Martinov, 2022</span>
-    </div>
-    <!-- /.footer-made -->
-    <div class="footer-rs">
-      <a href="https://rs.school/js/" class="footer-rs__link"><img src="img/rs-image.jpg" alt="" class="footer-rs__img"></a>
-      <h3 class="footer-rs__text">The project was created for <br> educational purposes for the course</h3>
-    </div>
-    <!-- /.footer-rs -->
-  </section>
-  <!-- /.footer -->
+  <!-- /.main-scrin -->
 </body>
 </html>
