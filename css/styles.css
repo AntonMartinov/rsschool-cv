@@ -84,7 +84,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  list-style-image: url("/img/map.svg");
+  list-style-image: url("../img/map.svg");
   padding-left: 10px;
   color: #2D2B2B;
 }
@@ -105,7 +105,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  list-style-image: url("/img/mail.svg");
+  list-style-image: url("../img/mail.svg");
   padding-left: 10px;
   color: #2D2B2B;
 }
@@ -126,7 +126,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  list-style-image: url("/img/tel.svg");
+  list-style-image: url("../img/tel.svg");
   padding-left: 10px;
 }
 .main-leftcolumn__contacts-element__tel-link {
@@ -148,7 +148,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  list-style-image: url("/img/vk.svg");
+  list-style-image: url("../img/vk.svg");
   padding-left: 10px;
 }
 .main-leftcolumn__contacts-element__vk-link {
@@ -170,7 +170,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  list-style-image: url("/img/tg.svg");
+  list-style-image: url("../img/tg.svg");
   padding-left: 10px;
 }
 .main-leftcolumn__contacts-element__telegram-link {
@@ -192,7 +192,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  list-style-image: url("/img/git.svg");
+  list-style-image: url("../img/git.svg");
   padding-left: 10px;
   color: #2D2B2B;
 }
