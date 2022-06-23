@@ -403,7 +403,7 @@ template {
 
 .preview {
   width: 1440px;
-  height: 765px;
+  height: 675px;
   margin: 0 auto;
   padding-left: 120px;
 }
@@ -482,4 +482,60 @@ template {
 
 input, textarea {
   outline: none;
+}
+
+.steps {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 100px 132px;
+}
+.steps-text {
+  margin: auto;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: #F2785C;
+  line-height: 53px;
+  text-align: center;
+}
+.steps-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.steps-sections__sports-img {
+  margin-left: 73px;
+}
+.steps-sections__sports-subscriptions {
+  font-family: "Aleo", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+  font-weight: 400;
+}
+.steps-sections__calendar-img {
+  margin-left: 63px;
+}
+.steps-sections__calendar-subscriptions {
+  font-family: "Aleo", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+  font-weight: 400;
+}
+.steps-sections__recommendations-img {
+  margin-left: 109px;
+}
+.steps-sections__recommendations-subscriptions {
+  font-family: "Aleo", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+  font-weight: 400;
+  text-align: center;
 }
